@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "personal-news-feed"
+version = "0.1.0"
+description = "A personal, story-based news feed"
+requires-python = ">=3.14"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
