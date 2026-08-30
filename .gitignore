@@ -6,3 +6,7 @@ __pycache__/
 !.env.example
 .pytest_cache/
 .DS_Store
+
+# Local development databases
+*.db
+data/
